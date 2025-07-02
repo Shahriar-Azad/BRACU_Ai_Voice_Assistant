@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAC University Voice Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="logo">BRAC</div> -->
+         <img src="bracu_logo_2.png" alt="BRAC University Logo" class="logo-img" />
+        <h1>BRAC University</h1>
+        <p class="subtitle">AI Voice Assistant</p>
+        
+        <div class="voice-controls">
+            <button id="startBtn" class="voice-btn primary">🎤 Start Listening</button>
+            <button id="stopBtn" class="voice-btn secondary" disabled>⏹️ Stop</button>
+        </div>
+
+        <div class="status" id="status">
+            <h3>🎙️ Voice Assistant Ready</h3>
+            <p>Click "Start Listening" and ask me anything about BRAC University! I can help with admissions, programs, facilities, fees, and more.</p>
+        </div>
+
+        <div class="conversation" id="conversation" style="display: none;">
+            <h3 style="text-align: center; color: #2c3e50; margin-bottom: 20px;">💬 Conversation</h3>
+        </div>
+
+        <div class="examples">
+            <h3>💡 Try asking these questions:</h3>
+            <ul>
+                <li>"What is BRAC University?"</li>
+                <li>"Tell me about admission requirements"</li>
+                <li>"What programs do you offer?"</li>
+                <li>"Where is the university located?"</li>
+                <li>"What are the tuition fees?"</li>
+                <li>"What facilities are available?"</li>
+                <li>"Tell me about computer science program"</li>
+                <li>"How can I apply for scholarships?"</li>
+            </ul>
+        </div>
+
+        <div id="error" class="error" style="display: none;"></div>
+    </div>
+
+    <script src="script.js">
+       
+    </script>
+</body>
+</html>
